@@ -10,7 +10,7 @@ public class UserService implements IUserService {
 	@Override
 	public UserEntity getName(String id) {
 
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>" + id);
 
 		UserEntity e = new UserEntity();
 
